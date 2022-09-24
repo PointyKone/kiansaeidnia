@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://www.pointykone.dev/" target="_blank">pointykone.dev</a></h1>
+<h1 align="center"><a href="https://www.pointykone.com/" target="_blank">pointykone.com</a></h1>
 
 ## Stack
 
