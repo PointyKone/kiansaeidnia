@@ -1,6 +1,7 @@
 import type { GetStaticProps, NextPage } from 'next'
 import Hero, { PinnedRepo } from '../components/Hero'
 import ProjectCard from '../components/ProjectCard'
+import ScrollDownArrow from '../components/ScrollDownArrow'
 
 const Home: NextPage<{
 	pinnedRepos: PinnedRepo[]
