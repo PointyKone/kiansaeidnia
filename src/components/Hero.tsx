@@ -19,7 +19,7 @@ const Hero = ({pinnedRepos}: Props) => {
             <h1 className="text-7xl font-bold">Hi I am Kian</h1>
             <h3 className="text-4xl my-3">I like to develop stuff.</h3>
             <p className="gray-700 mb-8"></p>
-            <Link href="https://github.com/pointykone" passHref><Button className="bg-purple-600 text-white px-6">Have A Look!</Button></Link>
+            <Link href="https://github.com/pointykone" passHref><Button className="bg-[#d47fff] text-white px-6">Have A Look!</Button></Link>
         </section>
     )
 }

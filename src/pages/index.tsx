@@ -8,18 +8,19 @@ const Home: NextPage<{
 	return (
 		<div>
 			<Hero pinnedRepos={pinnedRepos}/>
-			<div className="grid grid-cols-1 gap-4 auto-cols-max sm:grid-cols-2 sm:gap-3">
+            <h3 className="text-2xl my-3 font-semibold">Here are some of my favourite projects:</h3>
+			<div className="grid grid-cols-1 gap-4 auto-cols-max sm:grid-cols-3 sm:gap-3">
             {pinnedRepos.map((project) => (
-            <ProjectCard
-              key={project.repo}
-              repo={project.repo}
-              url={`https://github.com/${project.owner}/${project.repo}`}
-              description={project.description}
-              language={project.language}
-              languageColor={project.languageColor}
-            />
-          ))}
-        </div>
+                <ProjectCard
+                key={project.repo}
+                repo={project.repo}
+                url={`https://github.com/${project.owner}/${project.repo}`}
+                description={project.description}
+                language={project.language}
+                languageColor={project.languageColor}
+                />
+            ))}
+            </div>
 		</div>
   )
 }
