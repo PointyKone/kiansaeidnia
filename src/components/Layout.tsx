@@ -17,7 +17,7 @@ const Layout = ({children}: LayoutProps) => {
             <meta name="description" content="Personal portfolio website for Kian (aka. PointyKone)." />
             <meta name="og:site_name" content="PointyKone" />
             <meta name="og:type" content="website" />
-            <meta name="og:image" content="/og-image.svg" />
+            <meta name="og:image" content="https://pointykone.com/og-image.svg" />
 
             {/* twitter */}
             <meta name="twitter:card" content="summary_large_image" />
