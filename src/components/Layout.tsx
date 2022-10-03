@@ -18,7 +18,7 @@ const Layout = ({children}: LayoutProps) => {
             <meta name="og:site_name" content="PointyKone" />
             <meta name="og:type" content="website" />
             <meta name="og:locale" content="en_AU" />
-            <meta name="og:image" content="/icon-white.svg" />
+            <meta name="og:image" content="/og-image.svg" />
         </Head>
         <div className="min-h-screen flex flex-col">
             <Header />
