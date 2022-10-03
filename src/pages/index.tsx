@@ -1,13 +1,18 @@
 import type { GetStaticProps, NextPage } from 'next'
+import Head from 'next/head'
 import Hero, { PinnedRepo } from '../components/Hero'
 import ProjectCard from '../components/ProjectCard'
-import ScrollDownArrow from '../components/ScrollDownArrow'
 
 const Home: NextPage<{
 	pinnedRepos: PinnedRepo[]
 }> = ({pinnedRepos}) => {
 	return (
 		<div>
+            <Head>
+				<title>Home | PointyKone</title>
+                <meta name="og:title" content="Home | PointyKone" />
+                <meta name="og:url" content="https://www.pointykone.com" />
+			</Head>
 			<Hero pinnedRepos={pinnedRepos}/>
             <h3 className="text-2xl my-3 font-semibold">Here are some of my favourite projects:</h3>
 			<div className="grid grid-cols-1 gap-4 auto-cols-max sm:grid-cols-3 sm:gap-3">

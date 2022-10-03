@@ -47,7 +47,7 @@ const Header = () => {
         <header className="h-16 flex items-center justify-between">
             <ul className="flex gap-4">
                 {nav.map( item => (
-                    <Link key={item.id} href={item.path}><a className="font-semibold text-gray-400 hover:text-gray-500">{item.label}</a></Link>
+                    <Link key={item.id} href={item.path}><a className="font-semibold text-gray-200 hover:text-gray-500">{item.label}</a></Link>
                 ))}
             </ul>
             {renderThemeChanger()}
