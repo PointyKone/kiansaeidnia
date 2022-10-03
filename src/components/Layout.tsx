@@ -16,6 +16,7 @@ const Layout = ({children}: LayoutProps) => {
             <meta name="Kian Saeidnia" content="Personal Website For Kian Saeidnia"/>
             <meta name="description" content="Personal portfolio website for Kian (aka. PointyKone)." />
             <meta name="og:site_name" content="PointyKone" />
+            <meta property="og:description" content="Personal portfolio website for Kian (aka. PointyKone)." />
             <meta name="og:type" content="website" />
             <meta name="og:image" content="https://pointykone.com/og-image.svg" />
 
