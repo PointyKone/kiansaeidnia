@@ -18,7 +18,7 @@ const Layout = ({children}: LayoutProps) => {
             <meta name="og:site_name" content="PointyKone" />
             <meta property="og:description" content="Personal portfolio website for Kian (aka. PointyKone)." />
             <meta name="og:type" content="website" />
-            <meta name="og:image" content="https://pointykone.com/og-image.svg" />
+            <meta name="og:image" content="og-image.svg" />
 
             {/* twitter */}
             <meta name="twitter:card" content="summary_large_image" />
@@ -26,7 +26,7 @@ const Layout = ({children}: LayoutProps) => {
             <meta property="twitter:url" content="https://www.pointykone.com" />
             <meta name="twitter:title" content="Home | PointyKone" />
             <meta name="twitter:description" content="Personal portfolio website for Kian (aka. PointyKone)." />
-            <meta name="twitter:image" content="https://pointykone.com/og-image.svg" />
+            <meta name="twitter:image" content="/og-image.svg" />
         </Head>
         <div className="min-h-screen flex flex-col">
             <Header />
