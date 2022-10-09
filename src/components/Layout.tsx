@@ -24,7 +24,7 @@ const Layout = ({children}: LayoutProps) => {
             <meta name="twitter:card" content="summary_large_image" />
             <meta property="twitter:domain" content="pointykone.com" />
             <meta property="twitter:url" content="https://www.pointykone.com" />
-            <meta name="twitter:title" content="Home | PointyKone">
+            <meta name="twitter:title" content="Home | PointyKone" />
             <meta name="twitter:description" content="Personal portfolio website for Kian (aka. PointyKone)." />
             <meta name="twitter:image" content="https://pointykone.com/og-image.svg" />
         </Head>
