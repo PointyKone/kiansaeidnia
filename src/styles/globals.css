@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --card-color: rgb(34, 34, 41);
+}
+
 @layer base {
     body {
         @apply max-w-4xl mx-auto px-4;

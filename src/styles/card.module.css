@@ -1,0 +1,41 @@
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.1) */
+}
+
+.card::before, .cardBorder{
+    border-radius: inherit;
+    content: "";
+    opacity: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: opacity 500ms;
+}
+
+.card::before {
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.06), transparent 40%);
+    z-index: 3;
+}
+
+.cardBorder {
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.3 ), transparent 40%);
+    z-index: 1;
+    opacity: 0;
+}
+
+.card:hover::before, .card:hover > .cardBorder {
+    opacity: 1;
+}
+
+.cardContent {
+    background-color: var(--card-color);
+    border-radius: inherit;
+    position: relative;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    margin: 1px;
+    z-index: 2;
+}
